@@ -5,7 +5,7 @@
 Browse a useful food selection, then call or get directions. Authentic appetizing food and a warm neighborhood cafe identity. [S1–S4]
 
 ## Content plan
-Compact header, food-led hero, selected menu with category buttons, concise about/food story without invented history, hours and visit card, restrained footer. No fabricated reviews. Current menu availability confirmed by phone.
+Compact header, food-led hero, selected menu with category buttons, concise about/food story without invented history, hours and visit card, restrained footer. No fabricated reviews. Visitors are prompted to call for current menu availability; no verification call was placed.
 
 ## Template site
 Speed-first first build (2026-10-17): one reference inspected, per Derek's reduced-scope request.

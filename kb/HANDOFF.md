@@ -1,30 +1,38 @@
 # Handoff
 
 <!-- xs-status:start -->
-Pipeline status (generated 2026-10-17T21:58:31.029408+00:00):
+Pipeline status (generated 2026-10-17T22:18:37.078828+00:00):
 
-- **identity**: todo: identity.status=confirmed with at least two corroborating evidence entries
-- **research**: todo: fill company-profile.md, offerings.md, contact-and-hours.md, brand-and-voice.md, design-brief.md, sources.md, open-questions.md
-- **spec**: todo: fill kb/features.md
-- **assets**: todo: collect assets, record coverage, run xs_assets.py report
-- **delivery**: todo: package the current library and record each part's verified Slack delivery to Abdul
-- **infra**: todo: record verified infra evidence
-- **template**: todo: choose the premium template site and record it under '## Template site' in kb/design-brief.md
-- **build**: todo: record verified build evidence
-- **deploy**: todo: record verified deploy evidence
+- **identity**: done
+- **research**: done
+- **spec**: done
+- **assets**: done
+- **delivery**: done
+- **infra**: done
+- **template**: done
+- **build**: done
+- **deploy**: done
 <!-- xs-status:end -->
 
 ## Current state
 
-The first website is implemented and locally checked on `main`. Initial Oracle publication is authorized before GitHub/Actions provisioning for this build. All three environments remain noindex.
+The website is live in all three environments. The initial six push CI/release workflows passed. Production is source revision `b544e25e7a115e944e1628229cade97045030aa7`; both previews initially matched it and now carry this documentation-only handoff commit. Each preview's `/version.json` should equal its own branch head. All three remain noindex.
+
+| Environment | URL | Branch |
+|---|---|---|
+| Production | https://fuentes-cafe.xsolutionsmd.com | main |
+| Derek | https://fuentes-cafe-derek-dev.xsolutionsmd.com | derek-dev |
+| Abdul | https://fuentes-cafe-abdul-dev.xsolutionsmd.com | abdul-dev |
+
+Repository: https://github.com/xsolutionsmd/fuentes-cafe. Actions: https://github.com/xsolutionsmd/fuentes-cafe/actions. Main requires a PR and both application checks, with force pushes and deletion disabled. Each environment accepts only its named branch. Each Oracle stack has a separate updater and GHCR package.
 
 ## Last session
 
-2026-10-17: sourced business facts and three authentic food photos; Claude Opus 5.5 High implemented the frontend; Astra verified desktop/phone composition and core interactions. See `docs/VALIDATION.md`, `kb/features.md` and `kb/sources.md`.
+2026-10-17: sourced business facts and three authentic food photos; Claude Opus 5.5 High implemented the frontend; Astra verified desktop/phone composition and core interactions. See `docs/VALIDATION.md`, `kb/features.md` and `kb/sources.md`. The explicit fast-launch exception used a checked local ARM64 image before repository creation, then adopted the GitHub image. No placeholder release or extra review loop is claimed. Initial publication was verified at 22:15 UTC; all three GitHub releases passed by 22:17 UTC. Fifteen sibling containers were unchanged.
 
 ## Next step
 
-Deploy the checked source directly to Oracle, then provision the company repository and independent branch workflows. Verify every environment after its last push. Production changes after the initial release require the usual reviewed PR and release authorization.
+Derek works on `derek-dev`; Abdul works on `abdul-dev`. Use a reviewed PR into `main` with release authorization for a later production change. Sync main back afterward. The initial final-handoff push is checked against each environment's own head; detailed revision receipts live in the private project records to avoid self-referential documentation commits.
 
 ## Blockers / waiting on
 

@@ -21,4 +21,4 @@ Links use real public destinations. No order/booking is submitted by this site. 
 |---|---|---|---|---|---|---|
 | pre | Menu/navigation | Filters and mobile menu work | 1440px/375px | Browser clicks; Escape handler and focus restoration | pass | All four category states correct; navigation opens/closes and follows anchors; no overflow |
 | pre | Public links | Phone, Maps, Facebook correct | Desktop/phone | DOM and destination checks | pass | Correct tel number, verified Maps address and official Facebook; no calls/orders placed |
-| live | Core site | Three HTTPS environments render expected revision and links | Desktop/phone | Browser and HTTP checks | fail | Pending release |
+| live | Core site | Three HTTPS environments render expected revision and links | Desktop/phone | Browser and HTTP checks | pass | All three HTTPS sites at b544e25; health/version/noindex correct, filters work on both previews, links correct, no broken images/overflow or runtime errors |

@@ -71,25 +71,31 @@
       "status": "pending"
     },
     "infra": {
-      "status": "pending"
+      "status": "done",
+      "recorded": "2026-10-17T22:17:55.998822+00:00",
+      "evidence": [
+        "Post-build exception: public xsolutionsmd/fuentes-cafe, protected main and independent restricted environments; all three real sites verified HTTPS/noindex at b544e25. Six initial push workflows passed; actual built site replaced standard placeholder proof."
+      ]
     },
     "template": {
       "status": "pending"
     },
     "build": {
       "status": "done",
-      "recorded": "2026-10-17T22:13:25.549093+00:00",
+      "recorded": "2026-10-17T22:18:34.333440+00:00",
       "evidence": [
-        "Build-first exception: npm check passed; Astra desktop1440/phone375 visual review and filters/navigation/links pass; container contract next. GitHub infrastructure intentionally follows first Oracle URL."
+        "Build-first exception: npm check passed; Astra desktop1440/phone375 visual review and filters/navigation/links pass; container contract next. GitHub infrastructure intentionally follows first Oracle URL.",
+        "Source b544e25: npm check and ARM64 read-only candidate health/version pass; desktop1440 and phone375 screenshots, menu/navigation and link checks pass. Only later design-brief wording corrected to clarify no verification call occurred; no application code changed."
       ],
       "inputs_sha256": {
         "kb/features.md": "653e4ee91031730dab1dbc678ddd9e4c34bcf3b2644108793badd22c8b324586",
-        "kb/design-brief.md": "e4900c61320786457b9550e77edbd103fba68e2ada857b93b674a13b1eaada80"
-      }
+        "kb/design-brief.md": "bcd819821c616d1baa8ed8d760732112a85221720c7c9e6c8b760bb044e777ad"
+      },
+      "revision": "b544e25e7a115e944e1628229cade97045030aa7"
     },
     "deploy": {
       "status": "pending"
     }
   },
-  "updated": "2026-10-17T22:13:25.550101+00:00"
+  "updated": "2026-10-17T22:18:34.333918+00:00"
 }

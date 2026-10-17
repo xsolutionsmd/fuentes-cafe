@@ -2,7 +2,7 @@
 
 This generated contract is for one **stateless** HTTP image listening on `0.0.0.0:8080`, with Docker HEALTHCHECK and an uncached `/version.json` returning the exact build `revision`. Dockerfile accepts `REVISION` (or `APP_REVISION`) and `APP_SOURCE_URL`; labels must identify `https://github.com/xsolutionsmd/fuentes-cafe` and that revision. The runtime uses a read-only root and disposable `/tmp`, `/data`, `/config`; persistent user data requires an adapted stateful deployment, not this template.
 
-Work on dev, run the app checks, commit and push. Dev and PR events check only. Merge the authorized dev-to-main PR to publish and deploy. Keep dev as a long-lived branch. Never automatically merge unrelated dev changes into main. Only `oracle-release.yml` publishes this app; disable any duplicate publisher introduced by another scaffold.
+Work on your personal preview branch (`derek-dev` or `abdul-dev`), run the app checks, commit and push. Each branch publishes only its own preview through its named Oracle workflow. PR events check only. Merge an authorized reviewed PR into `main` to publish production through `oracle-release.yml`, then sync main back to both previews. There is no shared dev branch. The initial 2026-10-17 build explicitly bootstrapped Oracle before creating GitHub; normal release policy applies to subsequent changes.
 
 ## First installation
 
