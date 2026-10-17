@@ -82,14 +82,15 @@
     },
     "build": {
       "status": "done",
-      "recorded": "2026-10-17T22:18:34.333440+00:00",
+      "recorded": "2026-10-17T22:45:50.502873+00:00",
       "evidence": [
         "Build-first exception: npm check passed; Astra desktop1440/phone375 visual review and filters/navigation/links pass; container contract next. GitHub infrastructure intentionally follows first Oracle URL.",
-        "Source b544e25: npm check and ARM64 read-only candidate health/version pass; desktop1440 and phone375 screenshots, menu/navigation and link checks pass. Only later design-brief wording corrected to clarify no verification call occurred; no application code changed."
+        "Source b544e25: npm check and ARM64 read-only candidate health/version pass; desktop1440 and phone375 screenshots, menu/navigation and link checks pass. Only later design-brief wording corrected to clarify no verification call occurred; no application code changed.",
+        "Sol interaction review R1; Astra fixes anchor/focus/320px containment; npm check and actual desktop/mobile filter/keyboard/nav/visual checks pass. Current correction uses normal PR release, replacing prior bootstrap source."
       ],
       "inputs_sha256": {
         "kb/features.md": "653e4ee91031730dab1dbc678ddd9e4c34bcf3b2644108793badd22c8b324586",
-        "kb/design-brief.md": "bcd819821c616d1baa8ed8d760732112a85221720c7c9e6c8b760bb044e777ad"
+        "kb/design-brief.md": "e4fe7e7c901f5fad395f012f1508694417f1b56a3de1259244546b891ef355f8"
       },
       "revision": "b544e25e7a115e944e1628229cade97045030aa7"
     },
@@ -97,5 +98,5 @@
       "status": "pending"
     }
   },
-  "updated": "2026-10-17T22:18:34.333918+00:00"
+  "updated": "2026-10-17T22:45:50.504196+00:00"
 }

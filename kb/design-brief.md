@@ -49,7 +49,13 @@ basil green only for small labels.
   forms, and visitor-facing preview banners. Robots stay `noindex`.
 
 ## Accepted decisions and corrections
-<!-- Dated feedback from Derek, Abdul or the client. Newer explicit corrections win. -->
+2026-10-17 follow-up: Derek requested Sol to review visual awkwardness, tab placement,
+animations and interactivity, and Astra to implement the fixes. This overrides the
+initial Claude-only frontend routing for this correction pass. Menu and visit links
+frame the actual content; the anchored contact card stays visible without a reveal
+transform. At narrow phone widths the bottom action icons sit above their labels.
+The specials CTA has a contrasting keyboard focus ring. Existing filter and section
+re-entry animations are retained after targeted checks found no reproduced defect.
 
 ## X Solutions standing design rules
 
