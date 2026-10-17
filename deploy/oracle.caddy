@@ -1,0 +1,3 @@
+fuentes-cafe.xsolutionsmd.com {
+    reverse_proxy fuentes-cafe:8080
+}

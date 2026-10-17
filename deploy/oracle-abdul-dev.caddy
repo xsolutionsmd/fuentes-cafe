@@ -1,0 +1,3 @@
+fuentes-cafe-abdul-dev.xsolutionsmd.com {
+    reverse_proxy fuentes-cafe-abdul-dev:8080
+}

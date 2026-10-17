@@ -1,0 +1,11 @@
+[Unit]
+Description=Check fuentes-cafe approved releases
+
+[Timer]
+OnBootSec=45s
+OnUnitInactiveSec=60s
+AccuracySec=5s
+Unit=fuentes-cafe-update.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "toolkit": "xs-website 1.0 (2026-10-16)",
+  "name": "Fuentes Cafe",
+  "slug": "fuentes-cafe",
+  "created": "2026-10-17T21:58:18.302697+00:00",
+  "repository": "xsolutionsmd/fuentes-cafe",
+  "visibility": "public",
+  "build_type": "functional",
+  "features": [
+    "menu",
+    "call",
+    "directions",
+    "specials"
+  ],
+  "endpoint": "full",
+  "identity": {
+    "status": "confirmed",
+    "official_name": "Fuentes' Cafe",
+    "address": "30 E Padonia Rd, Timonium, MD 21093",
+    "public_phone": "240-448-2717",
+    "public_email": null,
+    "website": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Fuentes%20Cafe%2030%20E%20Padonia%20Rd%20Timonium%20MD%2021093",
+    "social": {},
+    "evidence": [
+      {
+        "observed": "2026-10-17T21:59:32.186254+00:00",
+        "note": "Facebook fuentesinc public profile and Restaurant Guru independently match street address and public phone; observed 2026-10-17"
+      },
+      {
+        "observed": "2026-10-17T22:00:34.148431+00:00",
+        "note": "Facebook fuentesinc address 30 E Padonia Rd and phone 240-448-2717 independently match Restaurant Guru and Restaurantji listings [S1-S3]"
+      }
+    ]
+  },
+  "environments": [
+    {
+      "name": "production",
+      "branch": "main",
+      "hostname": "fuentes-cafe.xsolutionsmd.com",
+      "slug": "fuentes-cafe"
+    },
+    {
+      "name": "derek-dev",
+      "branch": "derek-dev",
+      "hostname": "fuentes-cafe-derek-dev.xsolutionsmd.com",
+      "slug": "fuentes-cafe-derek-dev"
+    },
+    {
+      "name": "abdul-dev",
+      "branch": "abdul-dev",
+      "hostname": "fuentes-cafe-abdul-dev.xsolutionsmd.com",
+      "slug": "fuentes-cafe-abdul-dev"
+    }
+  ],
+  "stages": {
+    "identity": {
+      "status": "pending"
+    },
+    "research": {
+      "status": "pending"
+    },
+    "spec": {
+      "status": "pending"
+    },
+    "assets": {
+      "status": "pending"
+    },
+    "delivery": {
+      "status": "pending"
+    },
+    "infra": {
+      "status": "pending"
+    },
+    "template": {
+      "status": "pending"
+    },
+    "build": {
+      "status": "done",
+      "recorded": "2026-10-17T22:13:25.549093+00:00",
+      "evidence": [
+        "Build-first exception: npm check passed; Astra desktop1440/phone375 visual review and filters/navigation/links pass; container contract next. GitHub infrastructure intentionally follows first Oracle URL."
+      ],
+      "inputs_sha256": {
+        "kb/features.md": "653e4ee91031730dab1dbc678ddd9e4c34bcf3b2644108793badd22c8b324586",
+        "kb/design-brief.md": "e4900c61320786457b9550e77edbd103fba68e2ada857b93b674a13b1eaada80"
+      }
+    },
+    "deploy": {
+      "status": "pending"
+    }
+  },
+  "updated": "2026-10-17T22:13:25.550101+00:00"
+}

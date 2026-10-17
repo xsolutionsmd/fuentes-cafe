@@ -1,0 +1,2 @@
+# Decisions
+2026-10-17: Use a stateless menu presentation with real telephone, Maps and Facebook links. No checkout, reservation form, fabricated reviews or invented prices. Noindex on all environments. Initial Oracle installation precedes repository/Actions provisioning; the normal long-lived branch contract follows afterward. Bounded desktop/phone visual review and functional smoke tests are required.
