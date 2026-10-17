@@ -5,7 +5,7 @@
 Browse a useful food selection, then call or get directions. Authentic appetizing food and a warm neighborhood cafe identity. [S1–S4]
 
 ## Content plan
-Compact header, food-led hero, selected menu with category buttons, concise about/food story without invented history, hours and visit card, restrained footer. No fabricated reviews. Current menu availability confirmed by phone.
+Compact header, food-led hero, selected menu with category buttons, concise about/food story without invented history, hours and visit card, restrained footer. No fabricated reviews. Visitors are prompted to call for current menu availability; no verification call was placed.
 
 ## Template site
 Speed-first first build (2026-10-17): one reference inspected, per Derek's reduced-scope request.
@@ -49,7 +49,13 @@ basil green only for small labels.
   forms, and visitor-facing preview banners. Robots stay `noindex`.
 
 ## Accepted decisions and corrections
-<!-- Dated feedback from Derek, Abdul or the client. Newer explicit corrections win. -->
+2026-10-17 follow-up: Derek requested Sol to review visual awkwardness, tab placement,
+animations and interactivity, and Astra to implement the fixes. This overrides the
+initial Claude-only frontend routing for this correction pass. Menu and visit links
+frame the actual content; the anchored contact card stays visible without a reveal
+transform. At narrow phone widths the bottom action icons sit above their labels.
+The specials CTA has a contrasting keyboard focus ring. Existing filter and section
+re-entry animations are retained after targeted checks found no reproduced defect.
 
 ## X Solutions standing design rules
 

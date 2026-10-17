@@ -226,6 +226,7 @@ address { font-style: normal; }
 
 /* Specials */
 .specials { background: var(--chile); color: #fff8ef; }
+.specials :focus-visible { outline-color: var(--paper); }
 .specials-inner {
   max-width: var(--max); margin: 0 auto; padding: clamp(3rem, 6vw, 4.5rem) var(--gutter);
   display: flex; align-items: center; justify-content: space-between; gap: 1.5rem 2.5rem; flex-wrap: wrap;
@@ -347,4 +348,5 @@ address { font-style: normal; }
 @media (max-width: 380px) {
   .wordmark { font-size: 1.35rem; }
   .hero h1 { font-size: 2.75rem; }
+  .quickbar a { flex-direction: column; gap: .15rem; padding: .4rem .25rem; font-size: .85rem; line-height: 1.2; }
 }

@@ -71,25 +71,33 @@
       "status": "pending"
     },
     "infra": {
-      "status": "pending"
+      "status": "done",
+      "recorded": "2026-10-17T22:17:55.998822+00:00",
+      "evidence": [
+        "Post-build exception: public xsolutionsmd/fuentes-cafe, protected main and independent restricted environments; all three real sites verified HTTPS/noindex at b544e25. Six initial push workflows passed; actual built site replaced standard placeholder proof."
+      ]
     },
     "template": {
       "status": "pending"
     },
     "build": {
       "status": "done",
-      "recorded": "2026-10-17T22:13:25.549093+00:00",
+      "recorded": "2026-10-17T22:48:17.764232+00:00",
       "evidence": [
-        "Build-first exception: npm check passed; Astra desktop1440/phone375 visual review and filters/navigation/links pass; container contract next. GitHub infrastructure intentionally follows first Oracle URL."
+        "Build-first exception: npm check passed; Astra desktop1440/phone375 visual review and filters/navigation/links pass; container contract next. GitHub infrastructure intentionally follows first Oracle URL.",
+        "Source b544e25: npm check and ARM64 read-only candidate health/version pass; desktop1440 and phone375 screenshots, menu/navigation and link checks pass. Only later design-brief wording corrected to clarify no verification call occurred; no application code changed.",
+        "Sol interaction review R1; Astra fixes anchor/focus/320px containment; npm check and actual desktop/mobile filter/keyboard/nav/visual checks pass. Current correction uses normal PR release, replacing prior bootstrap source.",
+        "Interaction application source a807aaa: Application CI 39076377920 and Derek preview release 39076377938 passed; xs_verify confirms the live preview matches. Source-only reduced-motion coverage; no runtime preference emulation claimed."
       ],
       "inputs_sha256": {
         "kb/features.md": "653e4ee91031730dab1dbc678ddd9e4c34bcf3b2644108793badd22c8b324586",
-        "kb/design-brief.md": "e4900c61320786457b9550e77edbd103fba68e2ada857b93b674a13b1eaada80"
-      }
+        "kb/design-brief.md": "e4fe7e7c901f5fad395f012f1508694417f1b56a3de1259244546b891ef355f8"
+      },
+      "revision": "a807aaaa3112fda745f36335d0b918b4e332d246"
     },
     "deploy": {
       "status": "pending"
     }
   },
-  "updated": "2026-10-17T22:13:25.550101+00:00"
+  "updated": "2026-10-17T22:48:17.765257+00:00"
 }
